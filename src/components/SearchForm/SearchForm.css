@@ -1,0 +1,22 @@
+.search-form{
+    width: 100%;
+    max-width: 680px;
+}
+.search-form-elem{
+    padding: 1.4rem 2.8rem 0;
+    border-radius: 3.8rem;
+}
+.search-form-elem .form-control{
+    font-size: 2rem;
+}
+.search-form-elem .form-control::placeholder{
+    opacity: 0.9;
+}
+
+.search{
+    padding-bottom: 15px;
+}
+.sinp:focus{
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+    transform: scale(1.03);
+}

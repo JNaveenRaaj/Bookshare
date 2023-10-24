@@ -1,0 +1,56 @@
+
+  /* Style the form title */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /* Style form labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  /* Style form input fields */
+  input {
+    width: 90%;
+    height: 50px;
+    margin-bottom:15px;
+    border-radius: 20px;
+    background-color: var(#fdf9ff);
+    border: 2px solid rgb(178, 165, 165);
+    padding: 10px 25px;
+    font-size: 16px;
+    color: var(#504e70);
+    transition:all 0.3s ease;
+  }
+  input:focus{
+  box-shadow: 0 0 20px rgba(32, 30, 48, 0.15);
+    transform: scale(1.03);
+    font-weight: 500;
+}
+  .sell{
+    float: left;
+    margin-top: 80px;
+    margin-left: 50px;
+    height: 450;
+    width: 650px;
+  }
+  
+  /* Style the submit button */
+  .btn {
+    background-color: #c22add;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+    background-color: #d8c772;
+    border: 1px solid rgb(0, 0, 0);
+  }

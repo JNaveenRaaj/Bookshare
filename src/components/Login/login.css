@@ -1,0 +1,83 @@
+/* login.css */
+
+
+.row{
+  /* background-image: url(https://png.pngtree.com/png-vector/20191003/ourmid/pngtree-user-login-or-authenticate-icon-on-gray-background-flat-icon-ve-png-image_1786166.jpg); */
+  background-repeat: no-repeat;
+  background-size:600px;
+  background-position:right;
+  overflow: hidden;
+}
+.column {
+  padding-top: 8%;
+  padding-left: 5%;
+  float: left;
+  width: 50%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+.link{
+  color: rgb(191, 24, 191);
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+
+  input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.2s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+ .log{
+  float: right;
+  margin-top: 8%;
+  margin-right: 80px;
+  height: 350px;
+  width: 600px;
+ }
+  
+  .btn {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.2s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
